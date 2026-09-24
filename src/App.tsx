@@ -28,7 +28,7 @@ function App() {
 
   // SPA Page View Tracking
   useEffect(() => {
-    trackPageView(location.pathname + location.search)
+    trackPageView()
   }, [location.pathname, location.search])
 
   return (
