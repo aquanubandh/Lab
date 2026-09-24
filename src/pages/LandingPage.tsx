@@ -747,7 +747,7 @@ export default function LandingPage({ dark, setDark }: LandingPageProps) {
           </p>
           <div className="flex items-center gap-4">
             <button
-              onClick={() => navigate('/app')}
+              onClick={() => navigate('/disease-detector')}
               className="text-sm text-indigo-400 hover:text-indigo-300 transition-colors font-medium"
             >
               Disease Detector -&gt;
