@@ -512,7 +512,7 @@ export default function LandingPage({ dark, setDark }: LandingPageProps) {
 
             <div className="text-center">
               <button
-                onClick={() => navigate('/app')}
+                onClick={() => navigate('/disease-detector')}
                 className="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-2xl font-bold text-sm text-white bg-gradient-to-r from-indigo-500 to-violet-500 shadow-lg hover:opacity-90 transition-all duration-200 active:scale-95"
               >
                 <Microscope size={16} />
