@@ -15,10 +15,11 @@ export const trackEvent = (eventName: string, eventParams?: Record<string, any>)
   }
 };
 
-export const trackPageView = (pagePath: string) => {
+export const trackPageView = () => {
   if (typeof window !== 'undefined' && window.gtag) {
     window.gtag('event', 'page_view', {
-      page_path: pagePath,
+      page_title: document.title,
+      page_location: window.location.href,
     });
   }
 };
