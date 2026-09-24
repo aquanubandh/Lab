@@ -15,7 +15,7 @@ const CONF_THRESHOLD = 0.25
 const IOU_THRESHOLD  = 0.45
 const MODEL_SIZE     = 1024      // Must match ONNX export imgsz
 
-const MODEL_URL = '/model.onnx'
+const MODEL_URL = 'https://ai.aquanubandh.com/model.onnx'
 
 export interface Detection {
   // All values normalised 0–1 relative to original image dimensions
