@@ -174,7 +174,7 @@ const faqs = [
   },
   {
     q: 'Do I need an internet connection to use the detector?',
-    a: 'After the initial page load, the AI model runs entirely in your browser using WebAssembly inference. This means you can use it reliably at the pond edge even with limited connectivity.',
+    a: 'It does require internet but you dont need high speed internet for it work.',
   },
 
   {
