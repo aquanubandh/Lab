@@ -702,7 +702,7 @@ export default function LandingPage({ dark, setDark }: LandingPageProps) {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
               <button
-                onClick={() => navigate('/app')}
+                onClick={() => navigate('/disease-detector')}
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-4 rounded-2xl font-bold text-sm
                            bg-white text-blue-700 hover:bg-blue-50 shadow-xl
                            transition-all duration-200 active:scale-95"
