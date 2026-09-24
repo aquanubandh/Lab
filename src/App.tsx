@@ -34,8 +34,7 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
       <Routes>
-        <Route path="/" element={<Navigate to="/lab" replace />} />
-        <Route path="/lab" element={<LandingPage dark={dark} setDark={setDark} />} />
+        <Route path="/" element={<LandingPage dark={dark} setDark={setDark} />} />
         <Route path="/disease-detector" element={<AppPage dark={dark} setDark={setDark} />} />
         <Route path="/pl-counter" element={<PLCounterPage dark={dark} setDark={setDark} />} />
       </Routes>
