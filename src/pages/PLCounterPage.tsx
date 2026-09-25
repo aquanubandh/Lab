@@ -230,6 +230,9 @@ export default function PLCounterPage({ dark, setDark }: PLCounterPageProps) {
           <p className="text-sm text-slate-500 dark:text-slate-400">
             Accurate PL counts from tray photos - powered by YOLOv26s
           </p>
+          <p className="mt-2 text-xs text-amber-600 dark:text-amber-400">
+            ⚠️ PL 10 and above only. Use a clear, close-up image for accurate counting.
+          </p>
         </div>
 
         {/* Upper container */}
