@@ -9,6 +9,16 @@ export default defineConfig({
     react(),
     basicSsl(),
   ],
+
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        plCounter: 'pl-counter/index.html',
+      },
+    },
+  },
+
   optimizeDeps: {
     // Prevent esbuild from pre-bundling onnxruntime-web.
     // esbuild mangles ORT's WASM initialization glue code ("K is not a function").
