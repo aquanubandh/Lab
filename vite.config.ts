@@ -15,6 +15,7 @@ export default defineConfig({
       input: {
         main: 'index.html',
         plCounter: 'pl-counter/index.html',
+        diseaseDetector: 'disease-detector/index.html',
       },
     },
   },
