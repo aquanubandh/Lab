@@ -31,8 +31,8 @@ type AppState = 'idle' | 'loaded' | 'processing' | 'results'
 
 export default function AppPage({ dark, setDark }: AppPageProps) {
   useSEO({
-    title: 'Disease Detector | Aquanubandh Lab',
-    description: 'Instant AI shrimp disease detection. Upload a photo of an infected shrimp and identify WSSV and other diseases within seconds.'
+    title: 'Shrimp Disease Detector | Aquanubandh Lab',
+    description: 'Use Aquanubandh AI to detect shrimp diseases from images. Upload a shrimp photo to screen for visible signs of common shrimp diseases.'
   })
 
   const [appState, setAppState] = useState<AppState>('idle')
